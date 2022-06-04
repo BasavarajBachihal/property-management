@@ -1,10 +1,5 @@
 package com.mycompany.propertymanagement.exception;
 
-public class BusinessException {
-}
-/*
-package com.mycompany.propertymanagement.exception;
-
         import lombok.Getter;
         import lombok.NoArgsConstructor;
         import lombok.Setter;
@@ -14,11 +9,11 @@ package com.mycompany.propertymanagement.exception;
 @Getter
 @Setter
 @NoArgsConstructor
-public class BisinessException extends RuntimeException {
+public class BusinessException extends RuntimeException {
 
     private List<ErrorModel> errors;
 
-    public BisinessException(List<ErrorModel>errors){
+    public BusinessException(List<ErrorModel>errors){
         this.errors = errors;
     }
-}*/
+}

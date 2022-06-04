@@ -1,8 +1,4 @@
-package com.mycompany.propertymanagement.entity;
 
-public class UserEntity {
-}
-/*
 package com.mycompany.propertymanagement.entity;
 
 
@@ -24,10 +20,10 @@ public class UserEntity {
     private Long id;
 
     private String ownerName;
-    @Column(name="EMAIL", nullable = false)
+    @Column(name = "EMAIL", nullable = false)
     private String ownerEmail;
     private String phone;
     private String password;
-*/
+}
 
 
