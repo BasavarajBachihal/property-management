@@ -1,4 +1,4 @@
-package com.mycompany.propertymanagement.repository;
+
 
 package com.mycompany.propertymanagement.repository;
 import com.mycompany.propertymanagement.entity.UserEntity;
